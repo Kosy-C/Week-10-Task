@@ -1,15 +1,20 @@
 {
-  "name": "week-10-node-sq012-Kosy-C",
+  "name": "week-10-node-sq012-kosy-c",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/decadevs/week-10-node-sq012-Kosy-C.git",
   "author": "Kosy-C <kosychinweuba@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon dist/index.js"
+    "dev": "nodemon dist/index.js",
+    "build": "tsc -w"
   },
   "dependencies": {
+    "apollo-server": "^3.11.1",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "mongoose": "^6.8.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.20"
   },
